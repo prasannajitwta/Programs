@@ -64,15 +64,14 @@ class MyNumber
 		if(temp<0)
         	number = -number
         end
-		# Convert decimal to binary
+
 		self.binary(number)
 	end
 end
 def main()
 
 	obj = MyNumber.new()
-	# Test Cases
-	# Pass a decimal value which is indicates a octal number
+
 	obj.octal_to_binary(17)
 	obj.octal_to_binary(45)
 	obj.octal_to_binary(63)
